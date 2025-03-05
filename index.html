@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einstein-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>     
+    <header class="nav">
+        <nav id="navMenu" class="nav-menu" >
+            <a href="#about">About</a>
+            <a href="#publishedpapers">Published Papers</a>
+            <a href="#imagecollection">Image Collection</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#awards">Awards</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#copyrights">Copyrights</a>
+            <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+    <main class="container">
+        
+        <section id="profile">
+            <img src="images/profilepic.jpg" alt="Profile Picture">
+            <h3>Albert Einstein</h3>
+            <h4>Theoretical Physicist</h4>                       
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am Albert Einstein, a theoretical physicist born in 1879 in Ulm, Germany, best known for developing the theory of relativity, which transformed our understanding of space, time, and gravity. My work in physics, especially my explanation of the photoelectric effect, a key contribution to quantum theory, earned me the Nobel Prize in Physics in 1921, and my famous equation, E=mc², continues to shape modern scientific thought. Beyond my scientific achievements, I have always been a passionate advocate for social justice, civil rights, and global peace, believing in the power of science to enhance and uplift humanity. Learn more about me on my <a href='https://en.wikipedia.org/wiki/Albert_Einstein' target='_blank'>Wikipedia</a> page.
+            </p>
+        </section>
+
+        <section id="publishedpapers">
+            <h2>Published Papers</h2>
+                <div class="papers-grid">
+                    <div class="papers">
+                      <img src="images/papers.png" alt="Paper 1">
+                      <h3>Does the Inertia of a Body Depend Upon Its Energy Content?</h3>
+                      <p>In this paper, I proposed that the inertia of a body is directly related to its energy content, leading to the famous equation E = mc², which links mass and energy.</p>
+                      <a href="https://www.fourmilab.ch/etexts/einstein/E_mc2/e_mc2.pdf" target="_blank">
+                      <button class="view-more">Read More</button>
+                      </a>
+                    </div>
+                    <div class="papers">
+                      <img src="images/papers.png" alt="Paper 2">
+                      <h3>The Foundation of the General Theory of Relativity</h3>
+                      <p>In this paper, I developed the general theory of relativity, which describes gravity not as a force, but as the curvature of spacetime caused by mass and energy.</p>
+                      <a href="https://en.wikisource.org/wiki/The_Foundation_of_the_Generalised_Theory_of_Relativity" target="_blank">
+                      <button class="view-more">Read More</button>
+                      </a>
+                    </div>
+                    <div class="papers">
+                      <img src="images/papers.png" alt="Paper 3">
+                      <h3>On the Electrodynamics of Moving Bodies</h3>
+                      <p>Here I proposed the special theory of relativity, changing our understanding of space and time by showing that they are relative to the observer's motion.</p>
+                      <a href="https://users.physics.ox.ac.uk/~rtaylor/teaching/specrel.pdf" target="_blank">
+                      <button class="view-more">Read More</button>
+                      </a>
+                     </div>
+                </div>
+        </section>
+
+        <section id="imagecollection">
+            <h2>Image Collection</h2>
+            <div class="image-container">
+                <img src="images/Image1.jpg" alt="Image 1" class="image">
+                <img src="images/Image2.jpg" alt="Image 2" class="image">
+                <img src="images/Image3.png" alt="Image 3" class="image">
+                <img src="images/Image4.jpg" alt="Image 4" class="image">
+                <img src="images/Image5.jpg" alt="Image 5" class="image">
+                <img src="images/Image6.jpg" alt="Image 6" class="image">
+            </div>
+        </section>
+
+        <section class="hobbies" id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Reading books on philosophy, science, and literature</li>
+                <li>Playing the violin</li>
+                <li>Sailing</li>
+                <li>Playing Chess</li>
+                <li>Walking</li>
+                <li>Travelling</li>
+            </ul>
+        </section>
+
+        <section class="awards" id="awards">
+            <h2>Awards</h2>
+            <ul>
+              <li>Nobel Prize in Physics (1921)</li>
+              <li>Gold Medal of the Royal Astronomical Society (1926)</li>
+              <li>Max Planck Medal (1929)</li>
+              <li>Franklin Medal (1936)</li>
+              <li>Honorary Doctorate of Medicine (1919)</li>
+              <li>Time Magazine's Person of the Century (1999)</li>
+          </ul>
+        </section>
+
+        <section id="blogs">
+            <h2>Blogs</h2>
+            <div class="blog-container">
+                <article class="blog-box">
+                    <img src="images/blog1.jpg" alt="Blog 1">
+                    <h3>The World As I See It</h3>
+                    <p>In this essay, I shared my thoughts on life, society, and how I see the world around us.</p>
+                    <a href="https://history.aip.org/exhibits/einstein/essay.htm" target="_blank">Read More</a>
+                </article>
+                
+                <article class="blog-box">
+                    <img src="images/blog2.jpg" alt="Blog 2">
+                    <h3>On Education</h3>
+                    <p>Here I talked about the importance of creativity and thinking for yourself when it comes to education.</p>
+                    <a href="https://www.andrew.cmu.edu/user/sobla/teaching/On_Education_Einstein.pdf" target="_blank">Read More</a>
+                </article>
+                
+                <article class="blog-box">
+                    <img src="images/blog3.jpg" alt="Blog 3">
+                    <h3>Religion and Science</h3>
+                    <p>In this article, I discussed how science and religion can work together in our search for truth.</p>
+                    <a href="https://sacred-texts.com/aor/einstein/einsci.htm" target="_blank">Read More</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer id="copyrights">
+        <div class="footer-content">
+            <span class="copyright-icon">&#169;</span>
+            <span class="einstein">Albert Einstein. All Rights Reserved.</span>
+            <span class="quote">| "The only source of knowledge is experience" |</span>
+            <a href="#top" class="back-to-top">
+                <i class="fa fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
